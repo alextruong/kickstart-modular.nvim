@@ -2,8 +2,8 @@ return {
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     branch = 'master',
-    build = ':TSInstall',
-    main = 'nvim-treesitter', -- Sets main module to use for opts
+    build = ':TSConfig',
+    main = 'nvim-treesitter.configs', -- Sets main module to use for opts
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
     ---@module 'nvim-treesitter'
     ---@type TSConfig
