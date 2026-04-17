@@ -69,8 +69,14 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
--- Disable line wrapping
-vim.o.wrap = false
+-- Enable line wrapping
+vim.wo.wrap = true
+vim.wo.linebreak = true
+vim.wo.list = false
+
+-- Set tabsize
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 
 -- Highlight max chars per line
 -- vim.o.colorcolumn = '120'
