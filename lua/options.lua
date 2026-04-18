@@ -70,13 +70,13 @@ vim.o.scrolloff = 10
 vim.o.confirm = true
 
 -- Enable line wrapping
-vim.wo.wrap = true
-vim.wo.linebreak = true
-vim.wo.list = false
+vim.o.wrap = true
+vim.o.linebreak = true
 
 -- Set tabsize
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.o.shiftwidth = 4
 
 -- Highlight max chars per line
 -- vim.o.colorcolumn = '120'
